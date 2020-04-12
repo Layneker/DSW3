@@ -1,0 +1,61 @@
+
+body{
+   background-color: #646164;
+   color: #F7EFF7;
+}
+nav,header,.contenedor,footer{
+
+	max-width: 92%;
+	margin: auto;
+}
+
+
+nav{
+	background-color: #A09E9D;
+}
+
+header{
+	background-color: #2C46EE;
+}
+.contenedor{
+	background-color: #3FEA2E;
+
+}
+.central{
+	background-color: #D210DB;
+	display: inline-block;
+	max-width: 65%;
+}
+
+
+footer{
+	background-color: #A09E9D;
+}
+
+aside{
+	background-color: #14480E;
+	display: inline-block;
+	max-width: 15%;
+}
+/* MENU*/
+.menu li{
+	display: inline-block;
+}
+
+li a, boton{
+	display: inline-block;
+	color: #D210DB;
+	text-align: center;
+	text-decoration: none;
+}
+.listaDespegable{
+	display: none;
+	background-color: #3FEA2E;
+
+}
+.listaDespegable a{
+	color: aqua;
+	display: block;
+	text-align: left;
+}
+
